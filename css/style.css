@@ -700,6 +700,31 @@ footer p {
     margin-bottom: 80px !important;
   }
 }
+
+
+/* -------------------------------------------------------
+                    Srollbar customize
+-------------------------------------------------------- */
+/* width */
+::-webkit-scrollbar {
+    width: 9px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track { 
+    background:#fff;
+    border-radius: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: grey; 
+  border-radius: 5px;
+}
+
+
+
 /* -------------------------------------------------------
                     End
 -------------------------------------------------------- */
