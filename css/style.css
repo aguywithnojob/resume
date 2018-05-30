@@ -271,6 +271,7 @@ p {
   z-index: 2;
 }
 .header .v-middle {
+
   z-index: 11;
 }
 .header .caption {
@@ -722,6 +723,7 @@ footer p {
     background: grey; 
   border-radius: 5px;
 }
+
 
 
 

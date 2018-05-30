@@ -84,7 +84,8 @@
 		        <li><a href="#" data-scroll-nav="2">Services</a></li>
 		        <li><a href="#" data-scroll-nav="3">Works</a></li>
 		        <li><a href="#" data-scroll-nav="4">Feedback</a></li>
-		        <li><a href="#" data-scroll-nav="5">Contact</a></li>
+		        <li><a href="#" data-scroll-nav="5">People</a></li>
+		        <li><a href="#" data-scroll-nav="6">Contact</a></li>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container -->
@@ -92,8 +93,8 @@
 		<!-- ====== End Navgition ======  -->
 
 		<!-- ====== Header ======  -->
-		<section id="home" class="header" data-scroll-index="0" style="background-image: url(img/bg.jpg);" data-stellar-background-ratio="0.8">
-
+		<section id="home" class="header" data-scroll-index="0" style="background-image: url(img/bg.jpg); " data-stellar-background-ratio="0.8">
+			
 			<div class="v-middle">
 				<div class="container">
 					<div class="row">
@@ -112,9 +113,6 @@
 
 			          		<!-- social icons -->
 			          		<div class="social-icon">
-			          			<a href="https://www.facebook.com/profile.php?id=100009975245199">
-			          				<span><i class="fa fa-facebook" aria-hidden="true"></i></span>
-			          			</a>
 			          			<a href="https://github.com/Gaut9a8m">
 			          				<span><i class="fa fa-github" aria-hidden="true"></i></span>
 			          			</a>
@@ -128,6 +126,7 @@
 					</div>
 				</div><!-- /row -->
 			</div><!-- /container -->
+
 		</section>
 		<!-- ====== End Header ======  -->
 
@@ -335,7 +334,7 @@
 								<img src="img/portfolio/4.jpg" alt="image">
 								<div class="item-img-overlay">
 									<div class="overlay-info v-middle text-center">
-										<h6 class="sm-titl">WEB DESIGN</h6>
+										<h6 class="sm-titl">LOGO DESIGN</h6>
 										<div class="icons">
 											<span class="icon">
 												<a href="#0">
@@ -360,7 +359,7 @@
 								<img src="img/portfolio/5.jpg" alt="image">
 								<div class="item-img-overlay">
 									<div class="overlay-info v-middle text-center">
-										<h6 class="sm-titl">WEB DESIGN</h6>
+										<h6 class="sm-titl">LOGO DESIGN</h6>
 										<div class="icons">
 											<span class="icon">
 												<a href="#0">
@@ -385,7 +384,7 @@
 								<img src="img/portfolio/6.jpg" alt="image">
 								<div class="item-img-overlay">
 									<div class="overlay-info v-middle text-center">
-										<h6 class="sm-titl">WEB DESIGN</h6>
+										<h6 class="sm-titl">LOGO DESIGN</h6>
 										<div class="icons">
 											<span class="icon">
 												<a href="#0">
@@ -508,8 +507,51 @@
 		<!--====== End Numbers ======-->
 
 		
+
+			<!-====== GOOD PEOPLE GOOD SAY ===->
+			<section class="clients section-padding bg-gray" data-scroll-index="5">
+			<div class="container">
+				<div class="row">
+
+					<!-- section heading -->
+					<div class="section-head">
+						<h3>Good Words Good People</h3>
+					</div>
+
+					<!-- owl carousel -->
+					<div class="col-md-offset-1 col-md-10">
+						<div class="owl-carousel owl-theme text-center">
+
+							<!-- citems -->
+							<div class="citem">
+								
+								<p>Amazing work done by you. I only say cool... Keep it up budy.</p>
+								<h6>Sudhanshu</h6>
+								
+							</div>
+
+							<div class="citem">
+								
+								<p>Designing excellent, Work on time, Problem solving excellent. <br>To cool dude. Keep going...Best of luck for your future.</p>
+								<h6>Sagar</h6>
+								
+							</div>
+
+							<div class="citem">
+								
+								<p>Made a website for me. Requirement analysis done is best, execllent work done.<br> I will say your good at your work.<br> God bless you...</p>
+								<h6>Dhani gupta</h6>
+								
+							</div>
+						</div>
+					</div>
+				</div><!-- /row -->
+			</div><!-- /container -->
+		</section>
+
+
 		<!--====== Contact ======-->
-		<section class="contact section-padding" data-scroll-index="5">
+		<section class="contact section-padding" data-scroll-index="6">
 			<div class="container">
 				<div class="row">
 					
@@ -523,15 +565,9 @@
 						<!-- contact info -->
 						<div class="info text-center mb-50">
 
-							<div class="col-md-4">
-								<div class="item">
-									<span class="icon"><i class="fa fa-location-arrow" aria-hidden="true"></i></span>
-									<h6>Address</h6>
-									<p>Ajay Kumar Garg Engineering College, Ghaziabad</p>
-								</div>
-							</div>
+							
 
-							<div class="col-md-4">
+							<div class="col-md-12">
 								<div class="item">
 									<span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
 									<h6>Email</h6>
@@ -539,36 +575,39 @@
 								</div>
 							</div>
 
-							<div class="col-md-4">
-								<div class="item">
-									<span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
-									<h6>Phone</h6>
-									<p>(+91)9457444841</p>
-								</div>
-							</div>
 							<div class="clearfix"></div>
 						</div>
 
 						<!-- contact form -->
-						<form class='form' id='contact-form' method='post'><input type='hidden' name='form-name' value='contact-form' />
-		                    <div class="messages"></div>
-
-		                    <div class="controls">
-
+						
+						<form  action="sendmail.php" method="post" >
+							<div class="form" id="contact-form" >
 		                        <div class="row">
-		                            <div class="col-md-12 col-sm-12">
+		                            <div class="col-md-6">
 		                                <div class="form-group">
-		                                   <img src="img/map.png">
+		                                    <input id="form_name" type="text" name="name" placeholder="Name" required="required">
 		                                </div>
 		                            </div>
 
-		                             
-		                        </div>
-		                       
-		                    </div>
-		                </form>
+		                             <div class="col-md-6">
+		                                <div class="form-group">
+		                                    <input id="form_email" type="email" name="email" placeholder="Email" required="required">
+		                                </div>
+		                            </div>
+		                        
+		                            <div class="col-md-12">
+		                                <div class="form-group">
+		                                    <textarea id="form_message" name="message" placeholder="Message" rows="4" required="required"></textarea>
+		                                </div>
 
-					</div>
+		                                <input type="submit" name="submit" value="submit" class="buton buton-bg" />
+		                            </div>
+		                        </div>
+		                   	</div>
+		                </form>
+		                </div>
+
+				
 				</div><!-- /row -->
 			</div><!-- /container -->
 		</section>
@@ -580,6 +619,9 @@
 				<div class="row">
 					
 					<p>Copy Right 2018 &copy; By Owldeveloper All Rights Reserved</p>
+				</div>
+				<div class="row" style="width:35px; height:10px;">
+					<a href="http://www.reliablecounter.com" target="_blank"><img src="https://www.reliablecounter.com/count.php?page=thakurgautam.tech&digit=style/plain/5/&reloads=0" alt="" title="" border="0"></a><br /><a href="http://fitness-trackers.org" target="_blank" style="font-family: Geneva, Arial; font-size: 9px; color: #330010; text-decoration: none;"></a>
 				</div>
 							
 		</footer>
